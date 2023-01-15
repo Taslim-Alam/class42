@@ -1,0 +1,35 @@
+.main{
+    position: relative;
+}
+.class1 img {
+    display: block;
+  
+    width: 250px;
+    margin: auto;
+    border: 2px solid black;
+
+    -webkit-box-reflect:right 20px;
+}
+
+.class2 img {
+    display: block;
+    width: 450px;
+    height: 200px;
+    margin: auto;
+    border: 2px solid black;
+
+    -webkit-box-reflect: below 20px;
+}
+
+.class3 img {
+    width: 250px;
+    position: absolute;
+    top:800px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 2px solid black;
+    overflow: hidden;
+    -webkit-box-reflect: below 0px linear-gradient(to top, #a72c2c, #a72c2c);
+    transform: rotateY(60deg);
+}
